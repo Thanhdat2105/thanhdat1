@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>baitap 1</title>
+   
+</head>
+<body>
+    <input name ="Kiểm Tra" type="button" value="Kiểm Tra Dữ Liệu">
+    <br>
+    <input type="submit" value="Đăng Nhập"> <br>
+    <Input name="HoVaTen" TYPE="text" VALUE="Nguyễn Văn A " size="20"MAXLENGTH="30"> <br>
+    <Input name="Khoa" TYPE="text" VALUE="Khoa Công nghệ thông tin" size="40" MAXLENGTH="50" readonly="true"> <br>
+    <Input name="Khoa" TYPE="text" VALUE="Khoa Công nghệ thông tin" size="40"MAXLENGTH="50" readonly="true"> <br>
+    <Input name="Truong" TYPE="text" VALUE="Trường Đại học sư phạm kỹ thuật Hưng Yên" size="40" MAXLENGTH="50" Disabled="true"> <p></p>
+    <textarea name="GhiChu" cols="50" rows="5"> Nội dung ghi chú: </textarea> <br>
+    <Input name="MatKhau" type="password" value="123456" size="10"maxlength="20">
+   
+    <select name="Mon" size = 1 onChange="Call DocGiaTriListBox"> <br>
+     
+        <option value = "Visual Basic">Visual Basic</option>
+        <option value = "DOT_NET">Lập trình .NET</option>
+        <option value = "ASP">Lập trình ASP</option>
+    </select> <p></p>
+    <a>Ngôn ngữ lập trình</a> <br>
+    <Input name="chkVB" type="checkbox" value="Visual Basic" checked> Visual Basic <br>
+    <Input name="chkASP" type="checkbox" value="ASP "> Active Server Pages <br>
+    
+    <a>Giới tính</a> <br>
+    <Input name="GioiTinh" type="radio" value="Nam" checked> 
+    <Input name="GioiTinh" type="radio" value="Nữ" ><br>
+    <a>Tình trạng gia đình</a> <br>
+    <Input name="TinhTrang" type="radio" value="Đã lập gia đình" >
+    <Input name="TinhTrang" type="radio" value="Độc thân" checked > <br>
+     <Input type = text value = “Font Unicode” Style = “Font-Family:Times new roman”> 
+      <Input name="ChonFile" type="file" size="30"> <br>
+     <Input type = text value = “Font chữ Unicode đây !”><br>
+    <Input name="PhanTuAn" type="hidden" value="Brower">
+    <P Style =”Color:red; font-size:20; ”> </p> 
+     <br>
+    
+   
+    <div id="content" style="font-size:20;Text-Align:center">
+     xin chào
+    </div>
+    <input type="button" id="btn1" value="đỏ"/>
+    
+    <script language="javascript">
+     // Lấy 2 button và thẻ div
+     var button1 = document.getElementById("btn1");
+     var div = document.getElementById('content');
+
+     // Thiết lập click cho button 1
+     button1.onclick = function () {
+         div.style.background = "red";
+     };
+
+    
+  
+ </script>
+ 
+</html>
